@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+*.egg-info/
+build/
+dist/
+
+# Vault artefacts / secrets: never commit keys or real encrypted documents
+*.vault
+*.key
+secrets/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
