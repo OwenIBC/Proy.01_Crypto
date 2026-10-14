@@ -754,3 +754,4 @@ class TestInputValidation:
         with pytest.raises(UnsupportedAlgorithmError):
             encrypt_file(sample_file, owner_key, out_dir / "a.vault", algorithm=algorithm)  # type: ignore[arg-type]
         assert listing(out_dir) == set()
+

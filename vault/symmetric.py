@@ -640,3 +640,4 @@ def _write_new_file(path: Path, data: bytes) -> None:
         except OSError:
             pass
         raise
+

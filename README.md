@@ -65,3 +65,4 @@ Cada byte del contenedor (`magic | len | header | wrap_nonce | wrapped_dek | pay
 está cubierto por un tag AEAD; cualquier alteración produce un `DecryptionFailedError` genérico sin salida en
 disco. Ver el modelo de amenazas y lo que queda **fuera de alcance** (replay/rollback, confidencialidad de
 metadatos, gestión de la KEK) en [docs/design_d2.md](docs/design_d2.md#33-modelo-de-amenazas).
+

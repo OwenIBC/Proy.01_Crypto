@@ -13,3 +13,4 @@
 - [ ] No hay claves, contenedores reales ni secretos en el diff.
 - [ ] Pruebas nuevas/actualizadas y CI en verde.
 - [ ] Documentación (`docs/`) actualizada, incluido el modelo de amenazas.
+

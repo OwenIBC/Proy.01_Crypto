@@ -64,3 +64,4 @@ class PlaintextTooLargeError(VaultError, ValueError):
 
 class UnsupportedAlgorithmError(VaultError, ValueError):
     """The requested AEAD algorithm is not in the vault's allow-list."""
+
